@@ -1,0 +1,89 @@
+body {
+    background-image: url(1286465.jpg);
+    background-size: cover;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(35470517.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+@font-face {
+    font-family: 'BankGothic RUSS';
+    src: url('BankGothicRUSSMedium.woff2') format('woff2'),
+        url('BankGothicRUSSMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #00000091;
+        box-shadow: 0 0 5px #fbfbfa
+    }
+
+    50% {
+        background-color: #00000097;
+        box-shadow: 0 0 20px #f9f8f5e3;
+    }
+
+    100% {
+        background-color: #0000009f;
+        box-shadow: 0 0 5px #fcfbf7ef;
+    }
+}
+
+a {
+    align-items: center;
+    animation: glowing 1500ms infinite;
+    background-color: rgba(60, 65, 68, 0.53);
+    background-image: initial;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: "BankGothic RUSS";
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    max-width: 100%;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 500ms;
+    width: 830px;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.hr1 {
+    margin: 20px;
+    padding: 0;
+    height: 0;
+    border: none;
+    box-shadow: 0 0 10px 1px white;
+    width: 830px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.text {
+    text-align: center;
+    width: 90%;
+}
