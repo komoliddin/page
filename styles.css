@@ -1,6 +1,7 @@
 body {
     background-image: url(1286465.jpg);
     background-size: cover;
+    color: white;
 }
 
 .bg {
@@ -48,6 +49,7 @@ a {
     animation: glowing 1500ms infinite;
     background-color: rgba(60, 65, 68, 0.53);
     background-image: initial;
+    border-color: #00aaff;
     border-radius: 15px;
     color: whitesmoke;
     font-family: "BankGothic RUSS";
@@ -70,8 +72,19 @@ a:hover {
     padding: 0;
     height: 0;
     border: none;
-    box-shadow: 0 0 10px 1px white;
+    box-shadow: 0 0 10px 1px #00aaff;
     width: 830px;
+}
+
+.logo{
+    text-align: center;
+    border: 5px solid #1a2067;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 100%;
+    margin: 20px 20px 0px 20px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .btn {
@@ -79,11 +92,22 @@ a:hover {
     justify-content: space-between;
 }
 
-.logo {
-    width: 10%;
+.btnico {
+    height: 25px;
+    width: 25px
 }
 
 .text {
     text-align: center;
     width: 90%;
+}
+
+.fa-phone {
+    color: green;
+}
+.fa-envelope {
+    color: yellow;
+}
+.fa-telegram {
+    color: #669add;
 }
