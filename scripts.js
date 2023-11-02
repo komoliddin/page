@@ -15,7 +15,7 @@ function getDate()
     }
     document.getElementById('timedisplay').innerHTML = year;
 }
-setInterval(getDate, 0);
+setInterval(getDate, 1000);
 
 function myFunction1() {
     var copyText = document.getElementById("uzcard1");

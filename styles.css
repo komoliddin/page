@@ -1,3 +1,39 @@
+@media screen and (max-width: 1280px) {
+    div.contentblock {
+        width: 1200px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    div.contentblock {
+        width: 1024px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    div.contentblock {
+        width: 970px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .button {
+        width: 100%;
+    }
+}
+
 body {
     background-color: black;
     background-image: url(bg1.jpg);
@@ -83,7 +119,7 @@ button {
     font-weight: bold;
     margin: 1%;
     max-width: 80%;
-    padding: 1%;
+    padding: 0.5% 1%;
     text-align: center;
     text-decoration: none;
     transition: 123ms;
@@ -103,7 +139,7 @@ button {
     width: 50%;
 }
 
-.logo{
+.logo {
     text-align: center;
     border: 5px solid #1a2067;
     width: 50px;
@@ -152,33 +188,43 @@ button {
 .fa-phone {
     color: green;
 }
+
 .fa-envelope {
     color: yellow;
 }
+
 .fa-telegram {
     color: #669add;
 }
+
 .fa-facebook {
     color: rgb(88 110 237);
 }
+
 .fa-instagram {
     color: rgb(209 45 109);
 }
+
 .fa-odnoklassniki {
     color: rgb(222 156 64);
 }
+
 .fa-skype {
     color: rgb(107 167 242);
 }
+
 .fa-twitter {
     color: rgb(117 168 222);
 }
+
 .fa-viber {
     color: rgb(120 82 157);
 }
+
 .fa-vk {
     color: rgb(107 128 183);
 }
+
 .fa-whatsapp {
     color: rgb(125 212 88);
 }
@@ -187,12 +233,15 @@ button {
 .fa-discord {
     color: rgb(107 87 237);
 }
+
 .fa-github {
     color: rgb(255, 255, 255);
 }
+
 .fa-steam {
     color: rgb(68 98 149);
 }
+
 .fa-twitch {
     color: rgb(149 30 248);
 }
