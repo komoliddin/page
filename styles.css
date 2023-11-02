@@ -1,36 +1,10 @@
-@media screen and (max-width: 1280px) {
-    div.contentblock {
-        width: 1200px;
-    }
-
+@media only screen and (max-width : 999px) {
     .button {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1140px) {
-    div.contentblock {
-        width: 1024px;
+        width: 100% !important;
     }
 
-    .button {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    div.contentblock {
-        width: 970px;
-    }
-
-    .button {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width : 768px) {
-    .button {
-        width: 100%;
+    #clip {
+        width: 5% !important;
     }
 }
 
@@ -102,8 +76,12 @@ button {
     width: 23%;
 }
 
-.button1 {
-    width: 23% !important;
+#uzcard1 {
+    width: 23%;
+}
+
+#uzcard2 {
+    width: 23%;
 }
 
 .button {
