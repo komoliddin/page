@@ -3,12 +3,31 @@
         background-image: url() !important;
     }
 
+    body {
+        background-image: url() !important;
+    }
+
     .button {
+        font-size: large !important;
         width: 100% !important;
     }
 
     #clip {
         width: 5% !important;
+    }
+
+    .txt {
+        font-size: large !important;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    .button {
+        font-size: smaller !important;
+    }
+
+    .txt {
+        font-size: smaller !important;
     }
 }
 
@@ -97,7 +116,7 @@ button {
     border-radius: 15px;
     color: whitesmoke;
     font-family: 'Rubik Vinyl', sans-serif;
-    font-size: 25px;
+    font-size: x-large;
     font-weight: bold;
     margin: 1%;
     max-width: 80%;
