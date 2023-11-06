@@ -18,11 +18,11 @@ Google Font
 <br>
 Jquery
 <br>
-Style Buttons
+Styled Buttons
 <br>
-Style Font
+Styled Font
 <br>
-Style Overflow
+Styled Overflow
 <br>
 Top Button
 <br>
