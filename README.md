@@ -22,6 +22,8 @@ Styled Buttons
 <br>
 Styled Font
 <br>
+Styled HR
+<br>
 Styled Overflow
 <br>
 Top Button
