@@ -1,6 +1,6 @@
 # page
 <br>
-GitHub
+GitHub HTML CSS JavaScript
 <br>
 https://komoliddin.github.io/page/
 <br>
