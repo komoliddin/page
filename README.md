@@ -1,3 +1,4 @@
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/komoliddin/github-readme-stats)
 # page
 <br>
 https://komoliddin.github.io/page/
