@@ -1,4 +1,4 @@
-[![Komoliddin GitHub stats](https://github-readme-stats.vercel.app/api?username=komoliddin&show_icons=true&theme=radical)](https://github.com/komoliddin/github-readme-stats)
+[![Komoliddin GitHub stats](https://github-readme-stats.vercel.app/api?username=komoliddin&show_icons=true&theme=radical)
 # page
 <br>
 https://komoliddin.github.io/page/
